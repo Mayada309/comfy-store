@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'daisyui';
+
+@layer components {
+	.align-element {
+		@apply mx-auto max-w-6xl px-8;
+	}
+}
